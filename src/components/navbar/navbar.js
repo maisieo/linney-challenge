@@ -1,6 +1,7 @@
 // Navbar.js
 
 import React from "react";
+import "./navbar.css"; // Import the CSS file
 
 let Navbar = () => {
   return (
@@ -18,13 +19,13 @@ let Navbar = () => {
               Edge Network
             </a>
           </li>
-          <li className="navbar__nav-item">
+          <li className="navbar__navItem">
             <a href="/" className="navbar__link">
-              Prcing
+              Pricing
             </a>
           </li>
         </ul>
-        <button className="navbar__sign-up-button">Sign Up</button>
+        <button className="navbar__signUpButton">Sign Up</button>
       </div>
     </nav>
   );

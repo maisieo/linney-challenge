@@ -20,6 +20,6 @@ To run this project, follow the following steps:
 
 I've used the BEM (Block Element Modifier) naming convention for CSS classes. BEM helps maintain a modular and consistent styling approach, making it easier to manage styles across different components.
 
-Global styles are defined using CSS Modules and are imported into index.css. These global styles offer consistent styling for elements across the page.
+Global styles are defined using CSS and are imported into index.css. These global styles offer consistent styling for elements across the page.
 
 

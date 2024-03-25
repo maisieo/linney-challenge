@@ -1,0 +1,38 @@
+/* Navbar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar__nav-items {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .navbar__nav-links {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+  }
+
+
+  .navbar__nav-item {
+  }
+  
+  .navbar__link {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .navbar__link:hover {
+    /* text-decoration: underline; */
+  }
+  
+  .navbar__sign-up-button {
+    background-color: green;
+    color: black;
+    cursor: pointer;
+  }
+  
