@@ -44,9 +44,3 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
-
-
-.App > * {
-    border: 1px solid red;
-}
