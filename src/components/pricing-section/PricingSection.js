@@ -1,7 +1,7 @@
 // PricingSection.js
 
 import React from "react";
-import PricingTile from "./PricingTile";
+import PricingCard from "./PricingCard";
 // import "./pricingSection.css";
 
 let PricingSection = () => {
@@ -13,8 +13,8 @@ let PricingSection = () => {
         Cut your cloud bills in half with bundled extras like DDoS Protection, cloud firewalls, and generous transfer.
         </p>
       </div>
-      <div className="pricing-section__tiles">
-        <PricingTile 
+      <div className="pricing-section__cards">
+        <PricingCard 
           price="$9/mo"
           plan="Standard"
           details={[
@@ -23,7 +23,7 @@ let PricingSection = () => {
             "Feature 3"
           ]}
         />
-        <PricingTile 
+        <PricingCard 
           price="$9/mo"
           plan="Standard"
           details={[
@@ -32,7 +32,7 @@ let PricingSection = () => {
             "Feature 3"
           ]}
         />
-        <PricingTile 
+        <PricingCard 
           price="$9/mo"
           plan="Standard"
           details={[

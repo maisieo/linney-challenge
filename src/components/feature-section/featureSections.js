@@ -1,7 +1,7 @@
 // FeatureSection.js
 
 import React from "react";
-import FeatureTile from "./featureTile.js"
+import FeatureCard from "./featureCard.js"
 import "./featureSection.css";
 
 let FeatureSection = () => {
@@ -12,22 +12,22 @@ let FeatureSection = () => {
         <p className="feature-section__description">Feature description.</p>
       </div>
       <div className="feature-section__cards">
-        <FeatureTile 
+        <FeatureCard 
           title="Title" 
           description="Description 1" 
           imageUrl="" 
         />
-        <FeatureTile
+        <FeatureCard
           title="Title" 
           description="Description 2" 
           imageUrl="" 
         />
-        <FeatureTile 
+        <FeatureCard 
           title="Title" 
           description="Description 3" 
           imageUrl="" 
         />
-        <FeatureTile 
+        <FeatureCard 
           title="Title" 
           description="Description 3" 
           imageUrl="" 
