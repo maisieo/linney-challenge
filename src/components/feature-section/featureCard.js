@@ -1,7 +1,7 @@
 /*FeatureCard.js*/
 
 import React from "react";
-import "./featureCard.css";
+import "./FeatureCard.css";
 
 let FeatureCard = ({ title, description, imageUrl }) => {
   return (

@@ -1,2 +1,11 @@
 /* FeatureCard.css */
 
+/* Media queries for tablet */
+@media screen and (max-width: 1024px) {
+
+}
+
+/* Media queries for mobile */
+@media screen and (max-width: 767px) {
+
+}

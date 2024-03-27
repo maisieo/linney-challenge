@@ -1,38 +1,40 @@
 /* Navbar.css */
 
+/* Base styles */
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .navbar__nav-items {
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .navbar__nav-links {
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
+.navbar__nav-items {
+  display: flex;
+  flex-direction: row;
+}
 
-  .navbar__nav-item {
-  }
-  
-  .navbar__link {
-    color: black;
-    text-decoration: none;
-  }
-  
-  .navbar__link:hover {
-    /* text-decoration: underline; */
-  }
-  
-  .navbar__sign-up-button {
-    background-color: green;
-    color: black;
-    cursor: pointer;
-  }
-  
+.navbar__nav-links {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.navbar__link {
+  color: black;
+  text-decoration: none;
+}
+
+.navbar__sign-up-button {
+  background-color: green;
+  color: black;
+  cursor: pointer;
+}
+
+/* Media queries for tablet */
+@media screen and (max-width: 1024px) {
+
+}
+
+/* Media queries for mobile */
+@media screen and (max-width: 767px) {
+
+}
