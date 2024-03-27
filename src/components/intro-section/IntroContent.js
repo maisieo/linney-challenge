@@ -2,7 +2,7 @@
 
 import React from "react";
 
-const IntroContent = () => {
+let IntroContent = () => {
   return (
     <div className="intro-content">
       <h2 className="intro-content__title">Cloud Computing Developers Trust</h2>
