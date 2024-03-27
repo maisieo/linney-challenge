@@ -1,7 +1,7 @@
 // FeatureSection.js
 
 import React from "react";
-import FeatureTile from ".../featureTile/FeatureTile"; // Make sure to use correct casing
+import FeatureTile from "./featureTile.js"
 import "./featureSection.css";
 
 let FeatureSection = () => {

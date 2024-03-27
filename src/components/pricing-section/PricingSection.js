@@ -1,8 +1,8 @@
 // PricingSection.js
 
 import React from "react";
-import PricingTile from "./PricingTile"; // Assuming PricingTile is a separate component
-import "./pricingSection.css";
+import PricingTile from "./PricingTile";
+// import "./pricingSection.css";
 
 let PricingSection = () => {
   return (
