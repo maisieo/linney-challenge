@@ -1,17 +1,17 @@
 // FeaturesSection.js
 
 import React from "react";
-import FeatureTile from ".../featureTile/featureTile"
+import FeatureTile from ".../featureTile/FeatureTile"; // Make sure to use correct casing
 import "./featuresSection.css";
 
 let FeaturesSection = () => {
   return (
     <section className="features-section">
-      <div className="top-section">
-        <h2>Features</h2>
-        <p>Features description.</p>
+      <div className="features-section__top">
+        <h2 className="features-section__title">Features</h2>
+        <p className="features-section__description">Features description.</p>
       </div>
-      <div className="feature-cards">
+      <div className="features-section__cards">
         <FeatureTile 
           title="Title" 
           description="Description 1" 
@@ -22,12 +22,12 @@ let FeaturesSection = () => {
           description="Description 2" 
           imageUrl="" 
         />
-                <FeatureTile 
+        <FeatureTile 
           title="Title" 
           description="Description 3" 
           imageUrl="" 
         />
-                <FeatureTile 
+        <FeatureTile 
           title="Title" 
           description="Description 3" 
           imageUrl="" 
