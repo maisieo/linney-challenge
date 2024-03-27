@@ -125,81 +125,98 @@ table {
   border-spacing: 0;
 }
 
-/* Typography */
+
+
+
+
+/* Root styles */
+
 :root {
-  --primary-font: "Inter", sans-serif;
-  --h1-font-size: 48px;
-  --h1-font-weight: 700;
-  --h1-line-height: normal;
-
-  --h2-font-size: 32px;
-  --h2-font-weight: 700;
-  --h2-line-height: normal;
-
-  --h4-font-size: 24px;
-  --h4-font-weight: 700;
-
-  --p-font-size: 20px;
-  --p-font-weight: 400;
-  --p-line-height: normal;
-}
-
-body,
-button,
-input,
-select,
-textarea,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-span,
-div {
-  font-family: var(--primary-font);
-}
-
-h1 {
-  font-size: var(--h1-font-size);
-  font-weight: var(--h1-font-weight);
-  line-height: var(--h1-line-height);
-}
-
-h2 {
-  font-size: var(--h2-font-size);
-  font-weight: var(--h2-font-weight);
-  line-height: var(--h2-line-height);
-}
-
-h4 {
-  font-size: var(--h4-font-size);
-  font-weight: var(--h4-font-weight);
-}
-
-p {
-  font-size: var(--p-font-size);
-  font-weight: var(--p-font-weight);
-  line-height: var(--p-line-height);
-}
-
-/* Media queries for tablet */
-@media screen and (max-width: 1024px) {
-  :root {
-    --h1-font-size: 40px;
-    --h2-font-size: 28px;
-    --h4-font-size: 20px;
-    --p-font-size: 18px;
+	/* Typography */
+	--primary-font: "Inter", sans-serif;
+	--h1-font-size: 48px;
+	--h1-font-weight: 700;
+	--h1-line-height: normal;
+  
+	--h2-font-size: 32px;
+	--h2-font-weight: 700;
+	--h2-line-height: normal;
+  
+	--h4-font-size: 24px;
+	--h4-font-weight: 700;
+  
+	--p-font-size: 20px;
+	--p-font-weight: 400;
+	--p-line-height: normal;
+	
+  
+	/* Colors */
+	--font-colour: #FFFFFF; 
+	--highlight-colour: #02B159; 
+	--background-colour: #313131; 
+	--dark-background-colour: #292929; 
+	--card-background-colour: #242424; 
+	--secondary-font-colour: #DFDFDF;
   }
-}
-
-/* Media queries for mobile */
-@media screen and (max-width: 767px) {
-  :root {
-    --h1-font-size: 32px;
-    --h2-font-size: 24px;
-    --h4-font-size: 18px;
-    --p-font-size: 16px;
+  
+  /* Media queries for tablet and mobile */
+  @media screen and (max-width: 1024px) {
+	:root {
+	  --h1-font-size: 40px;
+	  --h2-font-size: 28px;
+	  --h4-font-size: 20px;
+	  --p-font-size: 18px;
+	}
   }
-}
+  
+  @media screen and (max-width: 767px) {
+	:root {
+	  --h1-font-size: 32px;
+	  --h2-font-size: 24px;
+	  --h4-font-size: 18px;
+	  --p-font-size: 16px;
+	}
+  }
+  
+  /* Typography styles */
+  body,
+  button,
+  input,
+  select,
+  textarea,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  span,
+  div {
+	font-family: var(--primary-font);
+	/* color: var(--font-colour); */
+  }
+  
+  h1 {
+	font-size: var(--h1-font-size);
+	font-weight: var(--h1-font-weight);
+	line-height: var(--h1-line-height);
+  }
+  
+  h2 {
+	font-size: var(--h2-font-size);
+	font-weight: var(--h2-font-weight);
+	line-height: var(--h2-line-height);
+  }
+  
+  h4 {
+	font-size: var(--h4-font-size);
+	font-weight: var(--h4-font-weight);
+  }
+  
+  p {
+	font-size: var(--p-font-size);
+	font-weight: var(--p-font-weight);
+	line-height: var(--p-line-height);
+  }
+  

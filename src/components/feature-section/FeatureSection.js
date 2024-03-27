@@ -9,7 +9,7 @@ let FeatureSection = () => {
     <section className="feature-section">
       <div className="feature-section__top">
         <h2 className="feature-section__title">Feature</h2>
-        <p className="feature-section__description">Feature description.</p>
+        <p className="feature-section__description">Feature description</p>
       </div>
       <div className="feature-section__cards">
         <FeatureCard 
