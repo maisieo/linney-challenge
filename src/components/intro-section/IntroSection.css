@@ -1,27 +1,51 @@
 /*IntroSection.css*/
 
+/*Global across three intro section files*/
+
+a {
+  color: var(--highlight-colour);
+  transition: all 0.3s;
+}
+
+a:hover {
+  color: var(--font-colour);
+}
+
+.bold-text {
+  font-weight: 700;
+}
+
+/*intro-section styles*/
+
 .intro-section {
-    padding: 24px var(--horizontal-padding-desktop);
-    background-color: var(--dark-background-colour);
+  padding: 24px var(--horizontal-padding-desktop);
+  background-color: var(--dark-background-colour);
 }
 
 .intro-section__wrapper {
-    display: flex;
-    flex-direction: row;
-    max-width: 1023px;
-    margin: 0 auto;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  max-width: 1023px;
+  margin: 0 auto;
+  justify-content: space-between;
 }
 
 /* Media queries for tablet */
 @media screen and (max-width: 1024px) {
+  .intro-section__wrapper {
+    flex-direction: column;
+    margin-top: 22px;
+  }
+}
 
+/* Media queries for mobile */
+@media screen and (max-width: 767px) {
+  .intro-section {
+    padding: 24px var(--horizontal-padding-mobile);
   }
-  
-  /* Media queries for mobile */
-  @media screen and (max-width: 767px) {
-    .intro-section {
-        padding: 24px var(--horizontal-padding-mobile);
-    }
+
+  .intro-section__wrapper {
+    flex-direction: column;
+    margin-top: 17px;
   }
-  
+}

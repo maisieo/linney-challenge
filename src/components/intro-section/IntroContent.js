@@ -7,7 +7,8 @@ import "./IntroContent.css";
 let IntroContent = () => {
   return (
     <div className="intro-content">
-      <h2 className="intro-content__title">Cloud Computing Developers Trust</h2>
+      <div className="intro-content__wrapper">
+      <h1 className="intro-content__title">Cloud Computing Developers Trust</h1>
       <p className="intro-content__description">
         Build, run, and secure your cloud workloads on{" "}
         <span className="bold-text">SuperNet Connected Cloud</span>, a massively
@@ -21,6 +22,7 @@ let IntroContent = () => {
         </a>{" "}
         to learn more.
       </p>
+      </div>
     </div>
   );
 };

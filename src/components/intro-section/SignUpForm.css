@@ -1,9 +1,84 @@
 /*SignUpForm.css*/
 
 .sign-up-form {
-    margin-left:24px;
-    max-width:506px;
-    padding:64px;
-    background-color: var(--background-colour);
-justify-content: center;
+  margin-left: 24px;
+  max-width: 506px;
+  padding: 64px 68px;
+  background-color: var(--background-colour);
+  justify-content: center;
+}
+
+.sign-up-form__buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.sign-up-form__button {
+  padding: 16px 2px;
+  width: 100%;
+  display: flex;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  background-color: var(--dark-background-colour);
+  margin-bottom: 24px;
+  border: none;
+  color: var(--font-colour);
+  text-align: center;
+  font-weight: 700;
+  font-size: 16px;
+  /* transition: all 0.3s, color 0.3s; */
+  transition: all 0.3s;
+}
+
+.sign-up-form__buttons button:hover {
+  background-color: var(--font-colour);
+  color: var(--background-colour);
+}
+
+.sign-up-form__buttons button:first-of-type {
+  background-color: var(--highlight-colour);
+  margin-bottom: 48px;
+}
+
+.sign-up-form__buttons button:first-of-type:hover {
+  background-color: var(--font-colour);
+  color: var(--highlight-colour);
+}
+
+.sign-up-form__button svg {
+  height: 24px;
+  color: var(--background-colour);
+  transition: all 0.3s;
+}
+
+.sign-up-form__buttons button:first-of-type svg {
+  color: var(--font-colour);
+}
+
+.sign-up-form__buttons button:first-of-type:hover svg {
+  color: var(--highlight-colour);
+}
+
+.sign-up-form__agreement {
+  color: var(--font-colour);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .sign-up-form {
+    margin: 0 auto;
+  }
+}
+
+/* Media queries for mobile */
+@media screen and (max-width: 767px) {
+  .sign-up-form {
+    padding: 24px var(--horizontal-padding-mobile);
+  }
 }
