@@ -1,0 +1,27 @@
+/*IntroSection.css*/
+
+.intro-section {
+    padding: 24px var(--horizontal-padding-desktop);
+    background-color: var(--dark-background-colour);
+}
+
+.intro-section__wrapper {
+    display: flex;
+    flex-direction: row;
+    max-width: 1023px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+/* Media queries for tablet */
+@media screen and (max-width: 1024px) {
+
+  }
+  
+  /* Media queries for mobile */
+  @media screen and (max-width: 767px) {
+    .intro-section {
+        padding: 24px var(--horizontal-padding-mobile);
+    }
+  }
+  

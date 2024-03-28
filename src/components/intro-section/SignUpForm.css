@@ -1,0 +1,9 @@
+/*SignUpForm.css*/
+
+.sign-up-form {
+    margin-left:24px;
+    max-width:506px;
+    padding:64px;
+    background-color: var(--background-colour);
+justify-content: center;
+}

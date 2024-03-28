@@ -1,10 +1,6 @@
 /* Navbar.css */
 
-/* Base styles */
 .navbar {
-  /* display: flex;
-  flex-direction: row;
-  justify-content: space-between; */
   align-items: center;
   background-color: var(--background-colour);
   padding: 24px var(--horizontal-padding-desktop);
@@ -64,8 +60,6 @@
 /* Media queries for tablet */
 @media screen and (max-width: 1024px) {
   .navbar {
-    /* display: flex;
-    justify-content: space-between; */
     position: fixed;
     top: 0;
     left: 0;
