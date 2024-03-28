@@ -1,5 +1,27 @@
 /*FeaturesSection.css*/
 
+/*Global styles across the files*/
+
+h1, h2, h3, p {
+    color: var(--secondary-font-colour);
+}
+
+.feature-section {
+    padding: 48px var(--horizontal-padding-desktop);
+    background-color: var(--dark-background-colour);
+}
+
+.feature-section__top {
+    max-width: 607px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom:48px;
+}
+
+.feature-section__title {
+    padding-bottom:35px;
+}
+
 /* Media queries for tablet */
 @media screen and (max-width: 1024px) {
 

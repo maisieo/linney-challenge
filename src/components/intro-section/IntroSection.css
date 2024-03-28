@@ -8,7 +8,7 @@ a {
 }
 
 a:hover {
-  color: var(--font-colour);
+  color: var(--secondary-font-colour);
 }
 
 .bold-text {
@@ -34,7 +34,7 @@ a:hover {
 @media screen and (max-width: 1024px) {
   .intro-section__wrapper {
     flex-direction: column;
-    margin-top: 22px;
+    margin-top: 62px;
   }
 }
 
@@ -42,10 +42,5 @@ a:hover {
 @media screen and (max-width: 767px) {
   .intro-section {
     padding: 24px var(--horizontal-padding-mobile);
-  }
-
-  .intro-section__wrapper {
-    flex-direction: column;
-    margin-top: 17px;
   }
 }

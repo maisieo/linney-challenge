@@ -24,7 +24,8 @@
   background-color: var(--dark-background-colour);
   margin-bottom: 24px;
   border: none;
-  color: var(--font-colour);
+  color: var(--secondary-font-colour);
+
   text-align: center;
   font-weight: 700;
   font-size: 16px;
@@ -33,7 +34,7 @@
 }
 
 .sign-up-form__buttons button:hover {
-  background-color: var(--font-colour);
+  background-color: var(--secondary-font-colour);
   color: var(--background-colour);
 }
 
@@ -43,7 +44,7 @@
 }
 
 .sign-up-form__buttons button:first-of-type:hover {
-  background-color: var(--font-colour);
+  background-color: var(--secondary-font-colour);
   color: var(--highlight-colour);
 }
 
@@ -54,7 +55,7 @@
 }
 
 .sign-up-form__buttons button:first-of-type svg {
-  color: var(--font-colour);
+  color: var(--secondary-font-colour);
 }
 
 .sign-up-form__buttons button:first-of-type:hover svg {
@@ -62,7 +63,7 @@
 }
 
 .sign-up-form__agreement {
-  color: var(--font-colour);
+  color: var(--secondary-font-colour);
   font-size: 14px;
   font-style: normal;
   font-weight: 400;

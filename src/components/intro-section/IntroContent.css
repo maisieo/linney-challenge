@@ -10,12 +10,12 @@
 }
 
 .intro-content__title {
-    color: var(--font-colour);
+    color: var(--secondary-font-colour);
     padding-bottom:20px;
 }
 
 .intro-content__description {
-    color: var(--font-colour);
+    color: var(--secondary-font-colour);
 }
 
 @media screen and (max-width: 1024px) {

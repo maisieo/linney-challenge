@@ -1,11 +1,63 @@
 /* FeatureCard.css */
 
+.feature-section__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 48px;
+  max-width: 1310px;
+  margin: 0 auto;
+}
+
+.feature-card {
+  background-color: var(--background-colour);
+  flex: 1 0 calc(50% - 24px);
+  /* margin-bottom: 48px; */
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.feature-card__text-content {
+  margin: 24px 4px 41px 24px;
+  max-width: 264px;
+}
+
+.feature-card__title {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.feature-card__image {
+  width: 50%;
+  border-radius: 0px 8px 8px 0px;
+  mask-image: linear-gradient(to right, transparent, lightgray 50%, black);
+}
+
+/*Media queries for small screens & tablets*/
+
+@media screen and (max-width: 1100px) {
+  .feature-card {
+    flex-direction: column;
+  }
+
+  .feature-card__image {
+    width: 100%;
+    mask-image: linear-gradient(to top, transparent, lightgray 50%, black);
+  }
+}
+
 /* Media queries for tablet */
 @media screen and (max-width: 1024px) {
+  .feature-card {
+    flex-basis: calc(50% - 24px);
 
+  }
 }
 
 /* Media queries for mobile */
 @media screen and (max-width: 767px) {
-
+  .feature-card {
+    flex-basis: 100%;
+    margin-bottom:0px;
+  }
 }
