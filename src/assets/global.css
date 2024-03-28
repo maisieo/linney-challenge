@@ -153,6 +153,7 @@ table {
 
   /* Spacing */
   --horizontal-padding-desktop: 32px;
+  --horizontal-padding-mobile: 20px;
 }
 
 /* Media queries for tablet and mobile */
