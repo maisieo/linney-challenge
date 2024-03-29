@@ -1,17 +1,17 @@
 // NetworkOverview.js
 
 import React from "react";
-// import "./networkOverview.css";
+import "./NetworkOverview.css";
 
 const NetworkOverview = () => {
   return (
     <section className="network-overview">
       <div className="network-overview__content">
-        <h2 className="network-overview__title">Edge Network</h2>
+        <h1 className="network-overview__title">Edge Network</h1>
         <p className="network-overview__description">
           Scale your business on the most distributed compute, security, and
           delivery platform — from cloud to edge. New core compute regions
-          launched. Learn more.
+          launched. <a href="link_to_learn_more_page">Learn more</a>.
         </p>
       </div>
       <div className="network-overview__map">

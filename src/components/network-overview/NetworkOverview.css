@@ -1,0 +1,30 @@
+/*NetworkOverview.css*/
+.network-overview {
+
+        padding: 48px var(--horizontal-padding-desktop);
+        background-color: var(--dark-background-colour);
+
+}
+.network-overview__content {
+    max-width: 834px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom:48px;
+}
+
+.network-overview__title {
+    padding-bottom:35px;
+}
+
+
+
+a {
+    color: var(--highlight-colour);
+    transition: all 0.3s;
+  }
+  
+  a:hover {
+    color: var(--secondary-font-colour);
+  }
+
+
