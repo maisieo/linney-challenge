@@ -22,12 +22,7 @@ h1, h2, h3, p {
     padding-bottom:35px;
 }
 
-/* Media queries for tablet */
-@media screen and (max-width: 1024px) {
-
-}
-
 /* Media queries for mobile */
 @media screen and (max-width: 767px) {
-
+    .feature-section {padding: 48px var(--horizontal-padding-mobile)};
 }
