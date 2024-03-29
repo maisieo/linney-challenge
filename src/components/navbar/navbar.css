@@ -126,7 +126,11 @@
   .navbar__nav-item,
   .navbar__title {
     margin-bottom: 30px;
-    font-size: 16px;
+  }
+
+  .navbar__link,
+  .navbar__title {
+    font-size:16px;
   }
 
   .navbar__title {
@@ -140,8 +144,6 @@
   .navbar__link {
     padding-right: 0 !important;
   }
-
-
 }
 
 /* Media queries for mobile */
