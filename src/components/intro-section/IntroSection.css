@@ -1,7 +1,6 @@
 /*IntroSection.css*/
 
-/*Global across three intro section files*/
-
+/* Global styles across three intro section files */
 a {
   color: var(--highlight-colour);
   transition: all 0.3s;
@@ -15,13 +14,13 @@ a:hover {
   font-weight: 700;
 }
 
-/*intro-section styles*/
-
+/* Intro section styles */
 .intro-section {
   padding: 24px var(--horizontal-padding-desktop);
   background-color: var(--dark-background-colour);
 }
 
+/* Intro section wrapper styles */
 .intro-section__wrapper {
   display: flex;
   flex-direction: row;
@@ -34,7 +33,7 @@ a:hover {
 @media screen and (max-width: 1024px) {
   .intro-section__wrapper {
     flex-direction: column;
-    margin-top: 95px;
+    margin-top: 95px; /*margin for tablet to fit under fixed navbar*/
   }
 }
 
@@ -42,5 +41,5 @@ a:hover {
 @media screen and (max-width: 767px) {
   .intro-section {
     padding: 24px var(--horizontal-padding-mobile);
-  }
+}
 }

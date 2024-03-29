@@ -1,5 +1,6 @@
 /* FeatureCard.css */
 
+/* Feature card section styles */
 .feature-section__cards {
   display: flex;
   flex-wrap: wrap;
@@ -9,13 +10,14 @@
   margin: 0 auto;
 }
 
+/* Individual feature card styles */
 .feature-card {
   background-color: var(--background-colour);
   flex: 1 0 calc(50% - 24px);
   display: flex;
   flex-direction: row-reverse;
-  border-radius:8px;
-  box-shadow: 0 6px 0px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  box-shadow: 0 6px 0px rgba(0, 0, 0, 0.1);
 }
 
 .feature-card__text-content {
@@ -35,35 +37,33 @@
   mask-image: linear-gradient(to right, transparent, lightgray 50%, black);
 }
 
-/*Media queries for small screens & tablets*/
-
+/* Media queries for small screens & tablets */
 @media screen and (max-width: 1100px) {
   .feature-card {
-    flex-direction: column;
+      flex-direction: column;
   }
 
   .feature-card__image {
-    width: 100%;
-    mask-image: linear-gradient(to top, transparent, lightgray 50%, black);
+      width: 100%;
+      mask-image: linear-gradient(to top, transparent, lightgray 50%, black);
   }
 }
 
 /* Media queries for tablet */
 @media screen and (max-width: 1024px) {
   .feature-card {
-    flex-basis: calc(50% - 24px);
-
+      flex-basis: calc(50% - 24px);
   }
 
   .feature-card__text-content {
-    margin: 24px;
+      margin: 24px;
   }
 }
 
 /* Media queries for mobile */
 @media screen and (max-width: 767px) {
   .feature-card {
-    flex-basis: 100%;
-    margin-bottom:0px;
+      flex-basis: 100%;
+      margin-bottom: 0;
   }
 }

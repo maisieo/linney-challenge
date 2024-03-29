@@ -24,9 +24,10 @@
   padding-bottom: 35px;
 }
 
-
-
 @media screen and (max-width: 767px) {
+  .pricing-section {
+    padding: 24px var(--horizontal-padding-mobile);
+  }
   .pricing-section__cards {
     justify-content: center;
   }
