@@ -1,6 +1,5 @@
 /* IntroContent.css */
 
-/* Intro content section styles */
 .intro-content {
     display: flex;
     justify-content: center;
@@ -9,13 +8,11 @@
     max-width: 525px;
 }
 
-/* Intro content title styles */
 .intro-content__title {
     color: var(--secondary-font-colour);
     padding-bottom: 20px;
 }
 
-/* Intro content description styles */
 .intro-content__description {
     color: var(--secondary-font-colour);
 }
@@ -27,7 +24,6 @@
         margin: 0 auto;
     }
 
-    /* Center align title and description */
     .intro-content__title,
     .intro-content__description {
         text-align: center;
@@ -37,7 +33,6 @@
 /* Media queries for mobile */
 @media screen and (max-width: 767px) {
     .intro-content {
-        /* Adjust padding for mobile */
         padding: 24px var(--horizontal-padding-mobile);
     }
 }
