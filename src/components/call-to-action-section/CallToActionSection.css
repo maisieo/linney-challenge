@@ -1,102 +1,92 @@
 /* CallToAction.css */
 
-/* Call to action section styles */
 .call-to-action-section {
-    display: flex;
-    padding: 96px var(--horizontal-padding-desktop);
-    background: var(--background-colour);
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
+  display: flex;
+  padding: 96px var(--horizontal-padding-desktop);
+  background: var(--background-colour);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-/* Call to action section title styles */
 .call-to-action-section__title {
-    margin-bottom: 26px;
+  margin-bottom: 26px;
 }
 
-/* Call to action section description styles */
 .call-to-action-section__description {
-    margin-bottom: 48px;
+  margin-bottom: 48px;
 }
 
-/* Call to action section options styles */
 .call-to-action-section__options {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 /* Button styles */
 .call-to-action-section__button {
-    background-color: var(--dark-background-colour);
-    color: var(--font-colour);
-    font-size: 20px;
-    font-weight: 700;
-    text-align: center;
-    padding: 24px 48px;
-    cursor: pointer;
-    border: none;
-    border-radius: 4px;
-    transition: all 0.3s, color 0.3s;
-    border: 1px solid var(--font-colour);
+  background-color: var(--dark-background-colour);
+  color: var(--font-colour);
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  padding: 24px 48px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  transition: all 0.3s, color 0.3s;
+  border: 1px solid var(--font-colour);
 }
 
-/* First button style */
 .call-to-action-section__button:first-of-type {
-    background-color: var(--highlight-colour);
-    color: var(--font-colour);
-    margin-right: 64px;
-    border: 1px solid var(--highlight-colour);
+  background-color: var(--highlight-colour);
+  color: var(--font-colour);
+  margin-right: 64px;
+  border: 1px solid var(--highlight-colour);
 }
 
-/* Button hover styles */
 .call-to-action-section__button:hover {
-    background-color: var(--font-colour);
-    color: var(--background-colour);
+  background-color: var(--font-colour);
+  color: var(--background-colour);
 }
 
-/* First button hover styles */
 .call-to-action-section__button:first-of-type:hover {
-    background-color: var(--font-colour);
-    color: var(--highlight-colour);
+  background-color: var(--font-colour);
+  color: var(--highlight-colour);
 }
 
 /* Media queries for tablet */
 @media screen and (max-width: 1024px) {
-    .call-to-action-section__button {
-        padding: 21px 48px;
-    }
+  .call-to-action-section__button {
+    padding: 21px 48px;
+  }
 }
 
 /* Media queries for mobile */
 @media screen and (max-width: 767px) {
-    .call-to-action-section {
-        padding: 50px var(--horizontal-padding-mobile);
-    }
+  .call-to-action-section {
+    padding: 50px var(--horizontal-padding-mobile);
+  }
 
-    .call-to-action-section h2,
-    .call-to-action-section p {
-        text-align: center;
-    }
+  .call-to-action-section h2,
+  .call-to-action-section p {
+    text-align: center;
+  }
 
-    .call-to-action-section__description {
-        margin-bottom: 48px;
-        text-align: center;
-    }
+  .call-to-action-section__description {
+    margin-bottom: 48px;
+    text-align: center;
+  }
 
-    .call-to-action-section__options {
-        flex-direction: column;
-    }
+  .call-to-action-section__options {
+    flex-direction: column;
+  }
 
-    /* Button styles for mobile */
-    .call-to-action-section__button {
-        padding: 19px 44px;
-    }
+  .call-to-action-section__button {
+    padding: 19px 44px;
+  }
 
-    /* First button styles for mobile */
-    .call-to-action-section__button:first-of-type {
-        margin-bottom: 30px;
-        margin-right: 0;
-    }
+  .call-to-action-section__button:first-of-type {
+    margin-bottom: 30px;
+    margin-right: 0;
+  }
 }
