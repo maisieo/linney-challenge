@@ -55,7 +55,7 @@ let FeatureSection = () => {
               Keeping bots and malicious users at bay.
             </span>
           }
-          imageUrl="imgs/DDOS-img.PNG"
+          imageUrl="/imgs/DDOS-img.PNG"
         />
 
         <FeatureCard
