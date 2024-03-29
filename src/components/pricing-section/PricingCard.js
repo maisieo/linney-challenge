@@ -10,7 +10,7 @@ let PricingCard = ({ price, plan, details }) => {
       <h4 className="pricing-card__price">{price}</h4>
       <h4 className="pricing-card__plan">{plan}</h4>
       </div>
-      <img className="pricing-card__image" src="/imgs/wave-bg.PNG" alt="wave image" />
+      <img className="pricing-card__image" src="/imgs/wave-bg.PNG" alt="wave" />
       <ul className="pricing-card__details">
         {details.map((detail, index) => (
           <li key={index}>
