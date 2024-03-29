@@ -31,6 +31,7 @@
 
 .feature-card__image {
   width: 50%;
+  display: block;
   border-radius: 0px 8px 8px 0px;
   mask-image: linear-gradient(to right, transparent, lightgray 50%, black);
 }

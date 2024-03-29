@@ -21,7 +21,7 @@ let Navbar = () => {
         <div className="navbar__line"></div>
       </div>
       <div className={contentClass}>
-        <p className="navbar__paragraph">Test</p>
+        <p className="navbar__paragraph">SuperNet</p>
         <div className="navbar__nav-items">
           <ul className="navbar__nav-links">
             <li className="navbar__nav-item">

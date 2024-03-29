@@ -6,6 +6,7 @@ import "./FeatureCard.css";
 let FeatureCard = ({ title, description, imageUrl }) => {
   return (
     <div className="feature-card">
+      
       <img src={imageUrl} alt={title} className="feature-card__image"
        />
        <div className="feature-card__text-content">
