@@ -1,12 +1,19 @@
-# Linney Challenge React App
+# SuperNet React App
 
 This is my React app for the front-end Linney challenge. Read on for an overview of the components as well as a guide on how to run the app.
 
 ## Components
 
-### Navbar component
-
-The Navbar component provides navigation and user interaction features.
+Navbar
+IntroContent
+IntroSection
+NetworkOverview
+FeaturesSection
+FeatureCard
+PricingSection
+PricingCard
+CallToAction
+Footer
 
 ## Installation
 
@@ -20,6 +27,6 @@ To run this project, follow the following steps:
 
 I've used the BEM (Block Element Modifier) naming convention for CSS classes. BEM helps maintain a modular and consistent styling approach, making it easier to manage styles across different components.
 
-Global styles are defined using CSS and are imported into index.css. These global styles offer consistent styling for elements across the page.
+Global styles are defined using CSS and are imported into index.css. These global styles ensure consistent styling for elements across the page.
 
 

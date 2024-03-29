@@ -4,12 +4,15 @@ import React, { useState } from "react";
 import "./navbar.css";
 
 let Navbar = () => {
+  /*Hook to manage state of navbar toggle*/
   let [isOpen, setIsOpen] = useState(false);
 
+  /*Toggles navbar open and close states*/
   let toggleNavbar = () => {
     setIsOpen(!isOpen);
   };
 
+  /*Determine classes for button and content based on isOpen state*/
   let toggleClass = isOpen ? "navbar__toggle open" : "navbar__toggle";
   let contentClass = isOpen ? "navbar__content open" : "navbar__content";
 
@@ -21,7 +24,7 @@ let Navbar = () => {
         <div className="navbar__line"></div>
       </div>
       <div className={contentClass}>
-        <p className="navbar__paragraph">SuperNet</p>
+        <h2 className="navbar__title">SuperNet</h2>
         <div className="navbar__nav-items">
           <ul className="navbar__nav-links">
             <li className="navbar__nav-item">
