@@ -14,17 +14,15 @@ a:hover {
   font-weight: 700;
 }
 
-/* Intro section styles */
 .intro-section {
   padding: 24px var(--horizontal-padding-desktop);
   background-color: var(--dark-background-colour);
 }
 
-/* Intro section wrapper styles */
 .intro-section__wrapper {
   display: flex;
   flex-direction: row;
-  max-width: 1023px;
+  max-width: 1063px;
   margin: 0 auto;
   justify-content: space-between;
 }

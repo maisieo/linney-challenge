@@ -6,6 +6,7 @@
     align-items: center;
     margin-right: 24px;
     max-width: 525px;
+    flex-shrink:0;
 }
 
 .intro-content__title {

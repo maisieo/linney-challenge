@@ -13,7 +13,7 @@ let SignUpForm = () => {
             <FontAwesomeIcon icon={faGoogle} /> Sign up with Google
           </button>
           <button className="sign-up-form__button sign-up-form__button--github">
-            <FontAwesomeIcon icon={faGithub} /> Github
+            <FontAwesomeIcon icon={faGithub} /> GitHub
           </button>
           <button className="sign-up-form__button sign-up-form__button--email">
             <FontAwesomeIcon icon={faEnvelope} /> Email
