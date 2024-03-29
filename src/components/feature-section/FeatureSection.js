@@ -1,7 +1,7 @@
 // FeatureSection.js
 
 import React from "react";
-import FeatureCard from "./FeatureCard";
+import FeatureCard from "./feature-card/FeatureCard";
 import "./FeatureSection.css";
 
 let FeatureSection = () => {
