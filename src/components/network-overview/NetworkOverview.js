@@ -16,7 +16,7 @@ const NetworkOverview = () => {
       </div>
       <div className="network-overview__map">
         <img
-          src="path_to_network_map_image.jpg"
+          src="/imgs/network-map.PNG"
           alt="Edge Network Map"
           className="network-overview__image"
         />

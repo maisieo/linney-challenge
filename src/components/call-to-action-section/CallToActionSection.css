@@ -1,0 +1,84 @@
+/*CallToAction.css*/
+
+.call-to-action-section {
+  display: flex;
+  padding: 96px var(--horizontal-padding-desktop);
+  background: var(--background-colour);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  align-self: stretch;
+}
+
+.call-to-action-section__title {
+  margin-bottom: 26px;
+}
+
+.call-to-action-section__description {
+  margin-bottom: 48px;
+}
+
+.call-to-action-section__options {
+  display: flex;
+  flex-direction: row;
+}
+
+.call-to-action-section__button {
+  background-color: var(--dark-background-colour);
+  color: var(--font-colour);
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  padding: 24px 48px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  transition: all 0.3s, color 0.3s;
+  border: 1px solid var(--font-colour);
+}
+
+.call-to-action-section__button:first-of-type {
+  background-color: var(--highlight-colour);
+  color: var(--font-colour);
+  margin-right: 64px;
+  border: 1px solid var(--highlight-colour);
+}
+
+.call-to-action-section__button:hover {
+  background-color: var(--font-colour);
+  color: var(--background-colour);
+}
+
+.call-to-action-section__button:first-of-type:hover {
+  background-color: var(--font-colour);
+  color: var(--highlight-colour);
+}
+
+@media screen and (max-width: 767px) {
+  .call-to-action-section {
+    padding: 50px var(--horizontal-padding-mobile);
+  }
+
+  .call-to-action-section h2, .call-to-action-section p {
+    text-align: center;
+  } 
+
+  .call-to-action-section__description {
+    margin-bottom: 48px;
+    text-align: center;
+  }
+
+  .call-to-action-section__options {
+    flex-direction: column;
+  }
+
+  .call-to-action-section__button {
+    padding:19px 44px;
+  }
+
+  .call-to-action-section__button:first-of-type {
+    margin-bottom: 30px;
+    margin-right: 0;
+  }
+}

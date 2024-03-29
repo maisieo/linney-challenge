@@ -2,7 +2,7 @@
 
 import React from "react";
 import PricingCard from "./PricingCard";
-// import "./pricingSection.css";
+import "./PricingSection.css";
 
 let PricingSection = () => {
   return (
@@ -15,30 +15,33 @@ let PricingSection = () => {
       </div>
       <div className="pricing-section__cards">
         <PricingCard 
-          price="$9/mo"
+          price={<><span>$9</span>/mo</>}
           plan="Standard"
           details={[
-            "Feature 1",
-            "Feature 2",
-            "Feature 3"
+            "10 GB of space",
+            "Unlimited Traffic",
+            "Forum Access",
+            "Support at $25/hour"
           ]}
         />
         <PricingCard 
-          price="$9/mo"
-          plan="Standard"
+          price={<><span>$49</span>/mo</>}
+          plan="Professional"
           details={[
-            "Feature 1",
-            "Feature 2",
-            "Feature 3"
+            "30 GB of space",
+            "Unlimited Traffic",
+            "Forum Access",
+            "Support at $25/hour"
           ]}
         />
         <PricingCard 
-          price="$9/mo"
-          plan="Standard"
+          price={<><span>$159</span>/mo</>}
+          plan="Enterprise"
           details={[
-            "Feature 1",
-            "Feature 2",
-            "Feature 3"
+            "50 GB of space",
+            "Unlimited Traffic",
+            "Forum Access",
+            "Support at $25/hour"
           ]}
         />
       </div>

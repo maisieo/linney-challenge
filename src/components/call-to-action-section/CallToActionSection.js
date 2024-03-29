@@ -1,7 +1,7 @@
 // CallToActionSection.js
 
 import React from "react";
-// import "./callToActionSection.css";
+import "./CallToActionSection.css";
 
 let CallToActionSection = () => {
   return (
