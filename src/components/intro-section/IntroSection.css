@@ -34,7 +34,7 @@ a:hover {
 @media screen and (max-width: 1024px) {
   .intro-section__wrapper {
     flex-direction: column;
-    margin-top: 62px;
+    margin-top: 95px;
   }
 }
 

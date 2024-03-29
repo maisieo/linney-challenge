@@ -55,6 +55,15 @@
   color: var(--highlight-colour);
 }
 
+/* Media queries for tablet */
+@media screen and (max-width:1024px) 
+{
+    .call-to-action-section__button {
+        padding: 21px 48px;
+    }
+}
+
+/* Media queries for mobile */
 @media screen and (max-width: 767px) {
   .call-to-action-section {
     padding: 50px var(--horizontal-padding-mobile);
