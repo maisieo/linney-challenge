@@ -4,15 +4,15 @@ This is my React app for the front-end Linney challenge. Read on for an overview
 
 ## Components
 
-Navbar
-IntroContent
-IntroSection
-NetworkOverview
-FeaturesSection
-FeatureCard
-PricingSection
-PricingCard
-CallToAction
+Navbar, 
+IntroContent, 
+IntroSection, 
+NetworkOverview, 
+FeaturesSection, 
+FeatureCard, 
+PricingSection, 
+PricingCard, 
+CallToAction, 
 Footer
 
 ## Installation
