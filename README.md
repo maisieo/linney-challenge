@@ -1,18 +1,18 @@
 # SuperNet React App
 
-This is my React app for the front-end Linney challenge. Read on for an overview of the components as well as a guide on how to run the app.
+This is my React app for the front-end Linney challenge. Read on for a list of the components as well as a guide on how to run the app. 
 
 ## Components
 
-Navbar
-IntroContent
-IntroSection
-NetworkOverview
-FeaturesSection
-FeatureCard
-PricingSection
-PricingCard
-CallToAction
+Navbar, 
+IntroContent, 
+IntroSection, 
+NetworkOverview, 
+FeaturesSection, 
+FeatureCard, 
+PricingSection, 
+PricingCard, 
+CallToAction, 
 Footer
 
 ## Installation
