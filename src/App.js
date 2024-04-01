@@ -7,6 +7,7 @@ import NetworkOverview from './components/network-overview/NetworkOverview';
 import PricingSection from './components/pricing-section/PricingSection';
 import CallToActionSection from './components/call-to-action-section/CallToActionSection';
 import Footer from './components/footer/Footer';
+import './components/feature-section/FeatureSection.css';
 
 let App = () => {
   return (
