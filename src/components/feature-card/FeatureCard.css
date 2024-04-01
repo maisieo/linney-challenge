@@ -17,7 +17,7 @@
   display: flex;
   flex-direction: row-reverse;
   border-radius: 8px;
-  box-shadow: 0 6px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 0px rgba(0, 0, 0, 0.05);
 }
 
 .feature-card__text-content {
