@@ -2,7 +2,7 @@
 
 import React from "react";
 import FeatureCard from "../feature-card/FeatureCard";
-// import "./FeatureSection.css";
+import "./Feature-Section.css";
 
 let FeatureSection = () => {
   return (
