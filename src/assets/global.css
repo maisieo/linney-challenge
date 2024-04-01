@@ -199,6 +199,13 @@ div {
   font-family: var(--primary-font);
 }
 
+h1,
+h2,
+h3,
+p {
+  color: var(--secondary-font-colour);
+}
+
 h1 {
   font-size: var(--h1-font-size);
   font-weight: var(--h1-font-weight);
@@ -235,3 +242,5 @@ p {
 button {
   cursor: pointer;
 }
+
+
