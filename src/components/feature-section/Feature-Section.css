@@ -1,13 +1,13 @@
 /* Global styles across feature section */
-/* h1,
+h1,
 h2,
 h3,
 p {
   color: var(--secondary-font-colour);
-} */
+}
 
 /* Feature section styles */
-/* .feature-section {
+.feature-section {
   padding: 48px var(--horizontal-padding-desktop);
   background-color: var(--dark-background-colour);
 }
@@ -21,11 +21,11 @@ p {
 
 .feature-section__title {
   padding-bottom: 45px;
-} */
+}
 
 /* Media queries for mobile */
-/* @media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .feature-section {
     padding: 48px var(--horizontal-padding-mobile);
   }
-} */
+}
