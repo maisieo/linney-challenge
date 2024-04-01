@@ -1,31 +1,31 @@
 /* Global styles across feature section */
-h1,
+/* h1,
 h2,
 h3,
 p {
-    color: var(--secondary-font-colour);
-}
+  color: var(--secondary-font-colour);
+} */
 
 /* Feature section styles */
-.feature-section {
-    padding: 48px var(--horizontal-padding-desktop);
-    background-color: var(--dark-background-colour);
+/* .feature-section {
+  padding: 48px var(--horizontal-padding-desktop);
+  background-color: var(--dark-background-colour);
 }
 
 .feature-section__top {
-    max-width: 598px;
-    margin: 0 auto;
-    text-align: center;
-    margin-bottom: 48px;
+  max-width: 598px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 48px;
 }
 
 .feature-section__title {
-    padding-bottom: 45px;
-}
+  padding-bottom: 45px;
+} */
 
 /* Media queries for mobile */
-@media screen and (max-width: 767px) {
-    .feature-section {
-        padding: 48px var(--horizontal-padding-mobile);
-    }
-}
+/* @media screen and (max-width: 767px) {
+  .feature-section {
+    padding: 48px var(--horizontal-padding-mobile);
+  }
+} */
